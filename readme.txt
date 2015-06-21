@@ -3,7 +3,7 @@ Contributors: clyp, ramiy
 Tags: clyp, audio, oEmbed
 Requires at least: 3.5
 Tested up to: 4.2
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,9 +11,21 @@ Embed audio from clyp.it into your WordPress site
 
 == Description ==
 
-[Clyp](https://clyp.it) is a simple way to record, discover, and share the sounds in your life with friends. Our platform enables anyone (no account required) to easily record and upload audio through a web browser, iPhone or Android device and share it with your existing networks like Facebook, Twitter, Reddit and more. Clyp provides every audio file with a short, unique link that makes sharing as easy as possible.
+Upload your audio files to [Clyp.it](https://clyp.it) and embed them to your WordPress site.
 
-Using this plugin you can embed your sounds from clyp into your WordPress site using nothing but the URL. Just copy the audio URL and paste it to the post text editor. Then simply click over to the visual editor to confirm that it loads properly.
+= About Clyp.it =
+
+[Clyp](https://clyp.it) is a simple way to record, discover, and share the everyday sounds in your life with friends.
+
+The platform enables anyone (no account required) to easily record and upload audio through a web browser, iPhone or Android device and share it with your existing social networks like Facebook, Twitter, Reddit and more.
+
+Clyp provides every audio file with a short, unique link that makes sharing as easy as possible.
+
+= Clyp WordPress Plugin =
+
+Using this plugin you can embed your sounds from clyp into your WordPress site using nothing but the URL.
+
+Just copy the audio URL and paste it to the post text editor. Then simply click over to the visual editor to confirm that it loads properly.
 
 == Installation ==
 
@@ -51,6 +63,10 @@ In WordPress 4.2 you can set max `width` and max `height` dimensions. It will ad
 **Note:** Doing it the WordPress way, using the `[embed]` shortcode, is backwards and forward compatible, and it works  with all the themes.
 
 == Changelog ==
+
+= 1.1 (2015-06-21) =
+* Add i18n support.
+* Add hebrew (he_IL) traslation.
 
 = 1.0 (2015-05-22) =
 * Initial release.
